@@ -1,0 +1,16 @@
+
+
+<div class="input">
+	<p>Input text:</p>
+
+<% form_for :text, :url => entities_path, :html => {:class => "usertext", :id => "usertext" } do |f| %>
+
+	<%= f.text_area :text, :class => "text" %>
+	<%= f.submit "Submit" %>
+<% end %>
+</div>
+ 
+<div class="output">
+	<p class="types" id="types"><a id="entities" class="active" href="#"  onclick="change_output_type(this); return false;">Entities</a> <a id="adjectives" class="adjectives"  href="#" onclick="change_output_type(this); return false;">Adjectives</a></p>
+	<div id="result_text"><pre><code id="results"></code></pre></div>
+</div>
