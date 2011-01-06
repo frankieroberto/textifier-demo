@@ -8,7 +8,9 @@ class TermsController < ApplicationController
     
     @terms = []
     
-    results = TermExtract.extract(@text)
+    options = {:min_occurance => 1}
+    
+    results = TermExtract.extract(@text, options)
     
     results.each do |term|
       @terms << term[0]
