@@ -28,7 +28,7 @@ GEM
       activemodel (= 3.0.3)
       activesupport (= 3.0.3)
     activesupport (3.0.3)
-    adjectifier (0.0.1)
+    adjectifier (0.0.2)
     arel (2.0.4)
     builder (2.1.2)
     entifier (0.3.1)
@@ -74,7 +74,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  adjectifier
+  adjectifier (= 0.0.2)
   entifier (= 0.3.1)
   rails (= 3.0.3)
   sqlite3-ruby
