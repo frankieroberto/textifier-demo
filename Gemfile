@@ -9,6 +9,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 gem 'adjectifier'
 gem 'entifier'
+gem 'term-extract'
 
 # Use unicorn as the web server
 # gem 'unicorn'

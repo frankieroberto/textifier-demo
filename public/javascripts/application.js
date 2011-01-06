@@ -133,6 +133,9 @@ function change_output_type(obj) {
 		case "entities" :
 			url = "/entities";
 			break
+		case "terms" :	
+			url = "/terms";
+			break
 		case "adjectives" :
 			url = "/adjectives";
 			break
