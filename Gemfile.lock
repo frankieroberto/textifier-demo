@@ -31,11 +31,9 @@ GEM
     adjectifier (0.0.1)
     arel (2.0.4)
     builder (2.1.2)
-    entifier (0.3.0)
-      gem_plugin (>= 0.2.3)
+    entifier (0.3.1)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    gem_plugin (0.2.3)
     i18n (0.4.2)
     mail (2.2.12)
       activesupport (>= 2.3.6)
@@ -77,7 +75,7 @@ PLATFORMS
 
 DEPENDENCIES
   adjectifier
-  entifier
+  entifier (= 0.3.1)
   rails (= 3.0.3)
   sqlite3-ruby
   term-extract
